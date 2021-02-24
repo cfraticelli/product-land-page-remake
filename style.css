@@ -41,3 +41,51 @@ ul {
     width: 90%;
     height: auto;
 }
+form {
+    text-align: center;
+    margin: .6rem;
+}
+#submit {
+    padding: .4rem;
+}
+input[type=email] {
+    padding:.4rem; 
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:1rem 3rem; 
+    background: black; 
+    color: white;
+    text-transform: uppercase;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 8px; 
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.wrapper .logos {
+    width: 3rem;
+}
+h3 {
+    font-size: 1.9rem;
+    padding: 0;
+    text-align: center;
+}
+.more-info {
+    background-color: #F5F5F5;
+    margin: 1rem 0;
+    padding: 1.5rem 2rem;
+
+}
+#info-blurb-img {
+    width: 7rem;
+    padding: 0 1rem;
+}
