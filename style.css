@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
 }
 .grid {
     display: flex;
@@ -34,8 +34,7 @@ ul {
     padding: 0 1rem;
 }
 .main-img {
-    display
-    width: 100%;
+    max-width: 100%;
     margin-top: -1rem;
 }
 form {
@@ -80,9 +79,6 @@ section h2 {
 .wrapper {
     display: flex;
     justify-content: center;
-}
-.wrapper .logos {
-    width: 2.5rem;
 }
 .more-info h3 {
     font-size: 1.9rem;
