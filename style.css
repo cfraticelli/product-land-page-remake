@@ -7,17 +7,17 @@
     flex-direction: column;
     width:100%
 }
+#header img {
+    width: 5.2rem;
+}
 nav {
     display: flex;
     align-items: center;
 }
-#header img {
-    width: 5.2rem;
-}
 .nav-links {
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+    width: 80%;
+    justify-content: space-around;
     font-weight: 700;
     color: black;
 }
@@ -37,7 +37,8 @@ ul {
 }
 .main-img {
     max-width: 100%;
-    margin-top: -1rem;
+    margin: 0 auto;
+    display: block;
 }
 .sign-up h1 {
     font-size: 3rem;
@@ -90,8 +91,8 @@ section h2 {
     display: flex;
     justify-content: center;
 }
-.wrapper img {
-    width: 3rem;
+.logos {
+    width: 2.8em;
 }
 .more-info h3 {
     font-size: 1.9rem;
@@ -126,6 +127,9 @@ section.video{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+section h6 {
+    font-size: 2rem;
 }
 .product-cards {
     border: 1px solid rgb(167, 165, 165);
@@ -164,6 +168,7 @@ button {
     transition: background 250ms ease-in-out, 
                 transform 150ms ease;
     border-radius: 8px;
+    font-weight: 700;
 
 }
 
@@ -189,4 +194,6 @@ footer {
 }
 footer img {
     width: 60px
+}
+@media only screen and (min-width: 700px) {
 }
